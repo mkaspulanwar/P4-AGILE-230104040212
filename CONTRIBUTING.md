@@ -1,22 +1,22 @@
-# 🧑‍💻 Panduan Kontribusi (CONTRIBUTING.md)
+# Panduan Kontribusi
 
 ## Kontribusi ke Proyek WSE — Mini E-Commerce API
 
-Terima kasih sudah tertarik untuk berkontribusi pada proyek ini! 🙌  
+Terima kasih sudah tertarik untuk berkontribusi pada proyek ini!   
 Proyek ini dibuat sebagai bagian dari **Modul Praktikum #4 Web Service Engineering (20251)** di bawah bimbingan **Muhayat, M.IT**.  
 
 ---
 
-## 👥 Daftar Kontributor
+## Daftar Kontributor
 
 | Nama | NIM | Peran / Kontribusi |
 |------|-----|---------------------|
-| **M. Kaspul Anwar** | 230104040212 | Developer utama — OpenAPI design, implementasi, dan dokumentasi |
+| **M. Kaspul Anwar** | 230104040212 | Developer utama |
 | [Tambahkan nama lain di sini] | [NIM] | [Deskripsi kontribusi, misal: tester, CI integrator, dokumentasi, dsb.] |
 
 ---
 
-## 🧭 Cara Berkontribusi
+## Cara Berkontribusi
 
 ### 1. Buat branch baru untuk fitur atau perbaikanmu
 ```bash
@@ -66,7 +66,7 @@ git push origin feature/nama-fitur
 
 ---
 
-## ✅ Standar Kontribusi
+## Standar Kontribusi
 
 | Kategori | Kriteria |
 |-----------|-----------|
@@ -78,17 +78,17 @@ git push origin feature/nama-fitur
 
 ---
 
-## 💬 Kontak
+## Kontak
 
 Untuk pertanyaan atau kolaborasi, silakan hubungi:
 
 - **Muhayat, M.IT (Dosen Pengampu)**  
 - **M. Kaspul Anwar (Developer Utama)**  
-  - GitHub: [@username](https://github.com/username)  
-  - Email: [alamat-emailmu@uin-antasari.ac.id](mailto:alamat-emailmu@uin-antasari.ac.id)
+  - GitHub: [@mkaspulanwar](https://github.com/mkaspulanwar)  
+  - Email: [230104040212@mhs.uin-antasari.ac.id](mailto:230104040212@mhs.uin-antasari.ac.id)
 
 ---
 
-> 💡 **Catatan:**  
+> **Catatan:**  
 > Setiap kontribusi yang dikirim akan ditinjau terlebih dahulu sebelum digabungkan ke branch utama (`main`).  
 > Pastikan seluruh tes dan lint berjalan **hijau** sebelum melakukan *Pull Request*.

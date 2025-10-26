@@ -34,6 +34,66 @@ Repositori ini berisi implementasi *Web Service* yang dikembangkan menggunakan m
 | **Integrasi** | GitHub Actions | Otomatisasi CI (*lint* + *typecheck* + *test*) setelah *commit*. |
 
 ---
+## 📁 Project Directory
+Berikut struktur lengkap proyek agar mudah dipahami konteks tiap komponen:
+
+P4-AGILE-230104040212/
+├── .github/
+│ └── workflows/
+│ └── ci.yml
+│
+├── contracts/
+│ └── docs/
+│ ├── Backlog.md
+│ ├── DoD.md
+│ └── ProductGoal.md
+│
+├── hardening_logs/
+│ ├── 20251026_112154_200_notifications.txt
+│ ├── 20251026_112154_201_orders.txt
+│ ├── 20251026_113400_400_orders_validation.txt
+│ ├── 20251026_132057_400_orders_badjson.txt
+│ └── LogDir/
+│
+├── mock_logs/
+│ ├── 20251025_183021_200_notifications.txt
+│ ├── 20251025_183021_201_orders.txt
+│ ├── 20251025_183021_400_orders.txt
+│ └── 20251025_183021_401_notifications.txt
+│
+├── openapi/
+│ └── api.yaml
+│
+├── services/
+│ ├── notification-service/
+│ │ ├── src/
+│ │ │ ├── index.ts
+│ │ │ └── server.ts
+│ │ └── test/
+│ │ └── notification.spec.ts
+│ │
+│ └── order-service/
+│ ├── src/
+│ │ ├── index.ts
+│ │ └── server.ts
+│ └── test/
+│ └── order.spec.ts
+│
+├── .gitignore
+├── .spectral.yaml
+├── CONTRIBUTING.md
+├── jest.config.cjs
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── README.md
+├── REPORT.md
+├── req_201.json
+├── req_400.json
+├── req_invalid_business.json
+├── req_ok.json
+├── tsconfig.json
+└── utils.ts
 
 ## ▶️ Run & Test
 
