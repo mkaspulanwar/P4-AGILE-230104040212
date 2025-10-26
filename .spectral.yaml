@@ -1,2 +1,2 @@
 extends: ["spectral:oas"]
-rules: {}
+rules: {} #(UTF-8, tanpa BOM)
