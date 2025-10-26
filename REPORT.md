@@ -2,10 +2,10 @@
 
 | Item | Detail |
 | :--- | :--- |
-| **Nama/NIM** | < M. Kaspul Anwar - 230104040212 > |
-| **Kelas** | < TI 23 A > |
-| **Repo/Zip** | < https://github.com/mkaspulanwar/P4-AGILE-230104040212 > |
-| **Tanggal** | < 2025-10-26 > |
+| **Nama/NIM** | M. Kaspul Anwar - 230104040212 |
+| **Kelas** | TI 23 A |
+| **Repo/Zip** | https://github.com/mkaspulanwar/P4-AGILE-230104040212|
+| **Tanggal** | 2025-10-26 |
 
 ---
 
@@ -25,9 +25,9 @@ Design-First $\rightarrow$ Mock-First (OpenAPI + Prism) $\rightarrow$ Test-First
 
 ## 3. Hasil Utama
 
-* **Lint OpenAPI**: LULUS (lihat `docs/spectral_pass.png`)
-* **Unit test**: `2 passed, 5 tests` (lihat `docs/npm_test_pass.png`)
-* **CI/CD**: Hijau (lihat `docs/ci_pass.png`)
+* **Lint OpenAPI**: LULUS ([lihat](docs/spectral_pass.png))
+* **Unit test**: `2 passed, 5 tests` ([lihat](docs/npm_test_pass.png))
+* **CI/CD**: Hijau ([lihat](docs/ci_pass.png))
 * **Mock-First bukti**: lihat `mock_logs/...`
 * **Hardening bukti**: lihat `hardening_logs/...`
 
