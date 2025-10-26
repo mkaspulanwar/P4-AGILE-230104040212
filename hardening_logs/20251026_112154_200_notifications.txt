@@ -1,0 +1,26 @@
+﻿HTTP/1.1 200 OK
+x-correlation-id: 8529aa47-62dd-417c-99e5-3270d5129f00
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+RateLimit-Policy: 120;w=60
+RateLimit-Limit: 120
+RateLimit-Remaining: 118
+RateLimit-Reset: 42
+Content-Type: application/json; charset=utf-8
+Content-Length: 133
+ETag: W/"85-/oLBuySNnxkq3e4HyG9ejT52vKI"
+Date: Sun, 26 Oct 2025 03:33:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"data":[{"id":"n1","type":"ORDER_CREATED","message":"Order created successfully","createdAt":"2025-10-26T03:33:49.784Z"}],"total":1}
