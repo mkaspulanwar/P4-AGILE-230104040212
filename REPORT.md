@@ -37,21 +37,22 @@ Design-First $\rightarrow$ Mock-First (OpenAPI + Prism) $\rightarrow$ Test-First
 
 | Status Code | Deskripsi | Bukti Log |
 | :--- | :--- | :--- |
-| **201 Created** | `order-service` | `mock_logs/<ts>_201_orders.txt` |
-| **200 OK** | `notification-service` | `mock_logs/<ts>_200_notifications.txt` |
-| **401 Unauthorized** | `notification-service` | `mock_logs/<ts>_401_notifications.txt` |
-| **400 Bad Request** | `order-service` | `mock_logs/<ts>_400_orders.txt` |
+| **201 Created** | `order-service` | [📄 mock_logs/20251025_183021_201_orders.txt](./mock_logs/20251025_183021_201_orders.txt) |
+| **200 OK** | `notification-service` | [📄 mock_logs/20251025_183021_200_notifications.txt](./mock_logs/20251025_183021_200_notifications.txt) |
+| **401 Unauthorized** | `notification-service` | [📄 mock_logs/20251025_183021_401_notifications.txt](./mock_logs/20251025_183021_401_notifications.txt) |
+| **400 Bad Request** | `order-service` | [📄 mock_logs/20251025_183021_400_orders.txt](./mock_logs/20251025_183021_400_orders.txt) |
 
 ### 4.2 Hardening (Runtime)
 
 | Status Code | Deskripsi | Bukti Log |
 | :--- | :--- | :--- |
-| **201 Created** | (orders) | `hardening_logs/<ts>_201_orders.txt` |
-| **200 OK** | (notifications) | `hardening_logs/<ts>_200_notifications.txt` |
-| **401 Unauthorized** | (orders, tanpa bearer) | `hardening_logs/<ts>_401_orders.txt` |
-| **400 ValidationError** | (orders) | `hardening_logs/<ts>_400_orders_validation.txt` |
-| **400 Bad JSON** | (opsional) | `hardening_logs/<ts>_400_orders_badjson.txt` |
-* **Cek header**: `x-correlation-id` muncul di response.
+| **201 Created** | (orders) | [📄 hardening_logs/20251026_112154_201_orders.txt](./hardening_logs/20251026_112154_201_orders.txt) |
+| **200 OK** | (notifications) | [📄 hardening_logs/20251026_112154_200_notifications.txt](./hardening_logs/20251026_112154_200_notifications.txt) |
+| **401 Unauthorized** | (orders, tanpa bearer) | [📄 hardening_logs/20251026_113400_401_orders.txt](./hardening_logs/20251026_113400_401_orders.txt) |
+| **400 ValidationError** | (orders) | [📄 hardening_logs/20251026_113400_400_orders_validation.txt](./hardening_logs/20251026_113400_400_orders_validation.txt) |
+| **400 Bad JSON** | (opsional) | [📄 hardening_logs/20251026_132057_400_orders_badjson.txt](./hardening_logs/20251026_132057_400_orders_badjson.txt) |
+
+* **Cek header**: `x-correlation-id` muncul di response.  
 * **Helmet headers** (CSP, X-Frame-Options, X-Content-Type-Options, dll.) muncul di 200/201.
 
 ---

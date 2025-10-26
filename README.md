@@ -1,4 +1,4 @@
-# P4-AGILE-230104040212: Web Service Hardening & CI/CD
+# P4-AGILE-230104040212: Praktikum Web Service Engineering #4
 
 [![ci](https://github.com/mkaspulanwar/P4-AGILE-230104040212/actions/workflows/ci.yml/badge.svg)](https://github.com/mkaspulanwar/P4-AGILE-230104040212/actions/workflows/ci.yml)
 
@@ -6,7 +6,11 @@
 
 Proyek ini adalah implementasi dari Mini-Sprint AGILE penuh. Detail lengkap tentang siklus, hasil pengujian, dan bukti *hardening* tersedia dalam laporan berikut:
 
-[![Lihat Laporan Praktikum Lengkap (REPORT.md)](https://img.shields.io/badge/Laporan%20Praktikum-REPORT.md-blue?style=for-the-badge&logo=markdown)](./REPORT.md)
+<p align="center">
+  <a href="./REPORT.md">
+    <img src="https://img.shields.io/badge/Laporan%20Praktikum-REPORT.md-blue?style=for-the-badge&logo=markdown" alt="Lihat Laporan Praktikum Lengkap (REPORT.md)">
+  </a>
+</p>
 
 ---
 
