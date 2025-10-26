@@ -36,7 +36,7 @@ Repositori ini berisi implementasi *Web Service* yang dikembangkan menggunakan m
 ---
 ## 📁 Project Directory
 Berikut struktur lengkap proyek agar mudah dipahami konteks tiap komponen:
-
+```bash
 P4-AGILE-230104040212/
 ├── .github/
 │ └── workflows/
@@ -94,6 +94,7 @@ P4-AGILE-230104040212/
 ├── req_ok.json
 ├── tsconfig.json
 └── utils.ts
+```
 
 ## ▶️ Run & Test
 
